@@ -18,7 +18,7 @@ export default function UserItem({ user }: Props) {
         <span>{user.login}</span>
       </div>
       <span className="hover:bg-black hover:text-white p-3">
-        <Link href="#">
+        <Link href={`/detail/${user.login}`}>
           <ChevronRightIcon className="w-4 h-4" />
         </Link>
       </span>
