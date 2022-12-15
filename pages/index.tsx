@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Button from "../components/Button";
 import Form from "../components/Form";
 import Header from "../components/Header";
 
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <Header />
         <form className="flex place-self-center space-x-3">
           <Form />
+          <Button type="submit" />
         </form>
       </main>
     </div>
