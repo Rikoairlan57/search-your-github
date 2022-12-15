@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="flex felx-row items-center space-x-5 justify-center">
+    <div className="flex flex-row items-center space-x-5 justify-center">
       <Image alt="logo" src={"/logo.png"} width={100} height={100} />
       <div>
         <p className="text-5xl">Cari Orang</p>
