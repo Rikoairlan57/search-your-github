@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Form from "../components/Form";
 import Header from "../components/Header";
 
 const Home: NextPage = () => {
@@ -13,7 +14,9 @@ const Home: NextPage = () => {
 
       <main>
         <Header />
-        <h1 className="text-center font-medium">Starter Page</h1>
+        <form className="flex place-self-center space-x-3">
+          <Form />
+        </form>
       </main>
     </div>
   );
